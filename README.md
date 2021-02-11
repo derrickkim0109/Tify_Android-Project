@@ -22,7 +22,7 @@
    <img src ="https://github.com/thlbyl0109/AndroidProject_tify/blob/main/document/system.png">
  
  # ERD 
-   <img src ="https://github.com/thlbyl0109/AndroidProject_tify/blob/main/document/ERD.jpeg">
+   <img src ="https://github.com/thlbyl0109/Tify_Android-Project/blob/main/document/ERD.png">
  # 1.Build gradle에 추가를 한다.
  
     dependencies {
