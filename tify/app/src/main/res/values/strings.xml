@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GlobalApplication</string>
+
+    <!-- 민우 -->
+    <string name="orderSummary_ActionBar">주문하기</string>
+    <string name="storeInfo_ActionBar">매장정보</string>
+    <string name="cartActivity_ActionBar">장바구니</string>
+    <string name="orderListActivity_ActionBaR">주문내역</string>
+    <string name="title_activity_stamp">StampActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--태현 2021.01.12-->
+    <string name="bank_text">Bank</string>
+    <string name="expiration_text">Expiration</string>
+    <string name="date_text">04/24</string>
+    <string name="date">Vaild Thru</string>
+    <string name="card_number">****   ****   ****   0011</string>
+    <string name="btn_text">Card Scan</string>
+
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Taehyun.Activity.Mypage_NoCardActivity">
+    <LinearLayout
+        android:id="@+id/card_firstll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/nocard_firstbtn"
+            android:src="@drawable/cardimg01"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="250dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="결제수단을 등록해주세요">
+
+        </TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:text="결제수단 등록하기"
+            android:drawableRight="@drawable/ic_action_h_0211"
+            android:background="@drawable/button_shape"
+            app:backgroundTint="@color/mainColor"
+            android:id="@+id/nocard_cardadd_btn"
+            android:layout_height="wrap_content">
+        </Button>
+
+
+    </LinearLayout>
+</LinearLayout>

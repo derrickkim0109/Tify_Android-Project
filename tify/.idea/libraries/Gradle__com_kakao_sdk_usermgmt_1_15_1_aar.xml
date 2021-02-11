@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kakao.sdk:usermgmt:1.15.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56cb902b34206691edd67bdcafaf9dc6/jetified-usermgmt-1.15.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56cb902b34206691edd67bdcafaf9dc6/jetified-usermgmt-1.15.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/56cb902b34206691edd67bdcafaf9dc6/jetified-usermgmt-1.15.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/721468c3445f60d3163ef8c89c25cdbc/jetified-usermgmt-1.15.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/721468c3445f60d3163ef8c89c25cdbc/jetified-usermgmt-1.15.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/721468c3445f60d3163ef8c89c25cdbc/jetified-usermgmt-1.15.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f43a3bf110d1344a8aff291e5d69fe1e/jetified-usermgmt-1.15.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f43a3bf110d1344a8aff291e5d69fe1e/jetified-usermgmt-1.15.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f43a3bf110d1344a8aff291e5d69fe1e/jetified-usermgmt-1.15.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b8b0ddcc4912baaee2e1406bc39bc3a/jetified-usermgmt-1.15.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b8b0ddcc4912baaee2e1406bc39bc3a/jetified-usermgmt-1.15.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b8b0ddcc4912baaee2e1406bc39bc3a/jetified-usermgmt-1.15.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/85661ad9c4a54216034924cd162bf35f/jetified-usermgmt-1.15.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/85661ad9c4a54216034924cd162bf35f/jetified-usermgmt-1.15.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/85661ad9c4a54216034924cd162bf35f/jetified-usermgmt-1.15.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7d335872341ce783fc0c7ac187c17c0/jetified-usermgmt-1.15.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7d335872341ce783fc0c7ac187c17c0/jetified-usermgmt-1.15.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7d335872341ce783fc0c7ac187c17c0/jetified-usermgmt-1.15.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a670d65371ff53b65d1a6425274ef381/jetified-usermgmt-1.15.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a670d65371ff53b65d1a6425274ef381/jetified-usermgmt-1.15.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a670d65371ff53b65d1a6425274ef381/jetified-usermgmt-1.15.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kakao.sdk/usermgmt/1.15.1/43e924641c5abb73d5ed6b1336f9d88f31d606a4/usermgmt-1.15.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

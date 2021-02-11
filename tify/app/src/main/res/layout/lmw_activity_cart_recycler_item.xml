@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/activity_Cart_CardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:id="@+id/activity_Cart_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:paddingLeft="35dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/activity_Cart_CV_mPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_launcher_foreground"
+                android:scaleType="centerCrop"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                />
+        </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/activity_Cart_CV_mName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="아메리카노(COLD)"
+                    android:textSize="15dp"
+                    android:textColor="@color/TextColor"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/activity_Cart_CV_AddOrder1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textColor="@color/SubColor"
+                        android:text="+사이즈업" />
+                    <TextView
+                        android:id="@+id/activity_Cart_CV_AddOrder2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/SubColor"
+                        android:textSize="12dp"
+                        android:visibility="invisible"
+                        android:text="+샷추가" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:id="@+id/activity_Cart_CV_Request"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textColor="@color/SubColor"
+                        android:text="얼음 조금만 넣어주세요" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+<!--                        <Button-->
+<!--                            android:id="@+id/activity_Cart_CV_MinusBtn"-->
+<!--                            android:layout_width="40dp"-->
+<!--                            android:layout_height="40dp"-->
+<!--                            android:backgroundTint="@color/white"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:text="-"/>-->
+                        <TextView
+                            android:id="@+id/activity_Cart_CV_Quantity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:text="1"
+                            android:gravity="center"
+                            android:textColor="@color/TextColor"
+                            android:textSize="18dp"
+                            />
+<!--                        <Button-->
+<!--                            android:id="@+id/activity_Cart_CV_PlusBtn"-->
+<!--                            android:layout_width="40dp"-->
+<!--                            android:layout_height="40dp"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:backgroundTint="@color/white"-->
+<!--                            android:text="+"/>-->
+
+                        <TextView
+                            android:id="@+id/activity_Cart_CV_SubTotalPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:text="4000원"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="@color/TextColor"
+                            android:paddingLeft="30dp"
+                            android:textSize="18dp"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

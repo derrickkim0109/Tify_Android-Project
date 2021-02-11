@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:foreground="?attr/selectableItemBackground">
+
+
+    <LinearLayout
+        android:id="@+id/orderList_RV_LL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#16000000"
+            >
+            <TextView
+                android:id="@+id/activity_OrderList_CV_OSeqno"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="25dp"
+                android:gravity="left"
+                android:text="주문번호 : 1"
+                android:paddingLeft="20dp"
+                />
+
+            <TextView
+                android:id="@+id/activity_OrderList_CV_ODate"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="2020-12-19 13:12"
+                />
+
+            <ImageView
+                android:id="@+id/activity_OrderList_CV_OrderDetailBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_action_right"
+                android:paddingRight="20dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/activity_OrderList_CV_sName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="스타벅스"
+                android:paddingTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/TextColor"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/activity_OrderList_CV_right1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_progress_unchecked"/>
+                <TextView
+                    android:id="@+id/activity_OrderList_CV_TV_OrderRequest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="주문요청"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/activity_OrderList_CV_right2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_progress_unchecked"/>
+                <TextView
+                    android:id="@+id/activity_OrderList_CV_TV_OrderConfirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="주문접수"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/activity_OrderList_CV_right3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_progress_unchecked"/>
+                <TextView
+                    android:id="@+id/activity_OrderList_CV_TV_OrderComplete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="제조완료"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="96dp"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/activity_OrderList_CV_Btn_InsertReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="리뷰쓰기"
+                android:backgroundTint="#0084ff"
+                android:textColor="@color/white"
+                android:visibility="invisible"
+                android:clickable="false"
+                />
+
+            
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
